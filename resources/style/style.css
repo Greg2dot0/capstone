@@ -1,0 +1,230 @@
+html {
+  color: #4A4A4A;
+  font-size: 16px;
+  font-family: sans-serif;
+  max-width: 1260px;
+}
+
+h2 {
+  margin: 32px 0;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+}
+
+a {
+  color: #619EE4;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 8px;
+}
+
+.dark-gray {
+  color: #4A4A4A;
+}
+.gray-box {
+  background-color: #D8D8D8;
+
+}
+.light-gray {
+  color: #D8D8D8;
+}
+/* Top Nav */
+.top-bar {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 24px;
+}
+
+.branding {
+  display: flex;
+  align-items: center;
+
+}
+
+
+.container {
+  display: flex;
+  margin: 32px 0;
+}
+
+.column-left {
+  width: 60%;
+  margin-left: 24px;
+}
+
+.column-left img{
+  width:100%;
+}
+
+.column-right {
+  width: 40%;
+  margin-left: 24px;
+  display: block;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  align-items: center;
+  padding: 32px 0;
+  margin-top: 0;
+ }
+
+.jumbotron .cta-block {
+  width: 80%;
+}
+
+.jumbotron .cta-block h1 {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: 900;
+}
+
+.jumbotron .cta-block h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.jumbotron .cta-block a {
+  display: block;
+  text-align: center;
+  padding: 8px 0;
+  color: white;
+  font-size: 1.25rem;
+  text-decoration: none;
+  background-color: #4A4A4A;
+  width: 100%;
+}
+
+/* highlights */
+
+.highlights h2 {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.highlights .column-right {
+  margin-top: -16px;
+}
+
+.story-block {
+  display: flex;
+  align-items: center;
+}
+
+.story-block:hover{
+  background-color: #D8D8D8;
+}
+
+.story-block img {
+  display: block;
+  width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.story-content {
+  display: block;
+}
+
+.story-content h3 {
+  margin: 0;
+}
+
+.story-content p {
+  margin: 8px 0;
+  line-height: 1.4rem;
+}
+
+.byline {
+  font-weight: 400;
+  font-size: .75rem;
+  margin: 0;
+}
+
+/* Learning Section */
+
+.learning {
+  position: relative;
+  display: block;
+  padding-top: 32px;
+}
+
+.learning-container {
+  margin: 32px 40px 32px 72px;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.learning h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.learning-block {
+  display: block;
+  margin: 0 32px 32px 0;
+  background-color: white;
+  max-width: 30%;
+}
+
+.learning-block img {
+  width: 100%;
+  height: auto;
+}
+
+.learning-text {
+  margin: 16px 16px 24px 16px;
+}
+
+.learning-text h3 {
+  margin: 0;
+}
+
+.learning-text h5 {
+  margin: 8px 0;
+}
+
+/* thesis */
+
+.summary h3 {
+  margin: 24px 0 0;
+}
+.summary p {
+  margin: 8px 0 0;
+}
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #D8D8D8;
+
+}
+.copyright {
+  margin: 16px 0 0 24px;
+}
+
+.bottom-nav li {
+  display: inline-block;
+  padding: 16px 4px;
+
+  ;
+}
+
